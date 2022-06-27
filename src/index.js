@@ -1,9 +1,13 @@
+import { version } from '../package.json';
+
 function info() {
   const m = new Map();
   m.set('name', 'ajs');
-  m.set('version', '1.0.0');
+  m.set('version', version);
   return m;
 }
+
+console.log(info());
 
 export default {
   info,
