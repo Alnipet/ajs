@@ -7,8 +7,6 @@ function info() {
   return m;
 }
 
-console.log(info());
-
 export default {
   info,
 };
